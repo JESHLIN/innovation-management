@@ -1,0 +1,156 @@
+/* src/components/HomePage.css */
+
+.home-container {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #061822;
+  color:white;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background-image: url('https://wallpaperaccess.com/full/5338375.jpg'); /* Make sure to adjust the path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-section .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  color: white;
+  width: 100%;
+}
+
+.cta-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.cta-btn:hover {
+  background-color: #218838;
+}
+
+/* About Section */
+.ipr-startup-section, .research-development-section, .news-events-section, .testimonials-section, .newsletter-section {
+  padding: 60px 20px;
+  text-align: center;
+  
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  
+}
+
+/* Innovation Highlights */
+.innovations-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.innovation-card {
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensures the image and text stay inside the card */
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+.innovation-card:hover{
+  transform: scale(1.1); /* Scale button to 110% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.innovation-image-one {
+  background-image: url('https://itchronicles.com/wp-content/uploads/2021/04/Optimized-Agile-Project-Management-Illustration-from-Adobe-Stock-scaled.jpeg'); /* Add your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px; /* Adjust the height as per your design */
+}
+
+.innovation-image-two {
+  background-image: url('https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/05/project-management-computer-screen.jpeg.jpg'); /* Add your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px; /* Adjust the height as per your design */
+}
+
+.innovation-image-three {
+  background-image: url('https://wallpaperaccess.com/full/5137785.jpg'); /* Add your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px; /* Adjust the height as per your design */
+}
+.innovation-text {
+  padding: 20px;
+  color: white; /* Ensure text contrast */
+  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background for better readability */
+}
+
+.innovation-text h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.innovation-text p {
+  font-size: 1.1em;
+  color: white;
+}
+
+.innovation-text a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* News & Events */
+.news-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.news-card {
+  background: #546B76;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+  
+}
+
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  padding: 20px;
+  color: white;
+}
+
+.quick-links a, .social-media a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
