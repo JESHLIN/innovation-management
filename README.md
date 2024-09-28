@@ -1,1 +1,2 @@
-# innovation-management
+This is currently my on-going project.
+Overview: The IPR (Intellectual Property Rights) Management System is a web application designed to streamline the process of managing intellectual property records. The system allows stakeholders to input, monitor, and track the status of IPR applications such as patents, trademarks, or copyrights. With a user-friendly interface, the platform ensures that IPR-related data is stored in a centralized repository, allowing for efficient and transparent tracking and management of intellectual property.
